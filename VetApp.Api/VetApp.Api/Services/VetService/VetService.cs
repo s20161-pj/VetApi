@@ -61,5 +61,21 @@ public class VetService : IVetService
 
     }
 
+    public async Task<ServiceResponse<List<GetVetDto>>> DeleteVet(int id)
+    {
+        var serviceResponse = new ServiceResponse<List<GetVetDto>>();
+        try
+        {
+            Vet vet = vets.First(c => c.Id == id);
+            vets.Remove(vet);
 
+            serviceResponse.Data = vets.Select(c => _mapper.Map<GetVetDto>(c)).ToList();
+        }
+        catch (Exception ex)
+        {
+            serviceResponse.Success = false;
+            serviceResponse.Message = ex.Message;
+        }
+        return serviceResponse;
+    }
 }

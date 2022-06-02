@@ -12,9 +12,9 @@ public class VetController : ControllerBase
     private readonly IVetService _vetService;
     public VetController(IVetService vetService)
     {
-        _vetService= vetService;
+        _vetService = vetService;
     }
-    
+
     [HttpGet("GetAllVets")]
     public async Task<ActionResult<ServiceResponse<List<GetVetDto>>>> Get()
     {
@@ -31,13 +31,23 @@ public class VetController : ControllerBase
         return Ok(await _vetService.AddVet(newVet));
     }
     [HttpPut]
-    public async Task<ActionResult<ServiceResponse<GetVetDto>>>UpdateVet(UpdateVetDto updatedVet)
+    public async Task<ActionResult<ServiceResponse<GetVetDto>>> UpdateVet(UpdateVetDto updatedVet)
     {
         var response = await _vetService.UpdateVet(updatedVet);
-        if(response.Data == null)
+        if (response.Data == null)
         {
             return NotFound(response);
         }
-        return Ok (response);
+        return Ok(response);
+    }
+    [HttpDelete("{id}")]
+    public async Task<ActionResult<List<ServiceResponse<GetVetDto>>>> Delete(int id)
+    {
+        var response = await _vetService.DeleteVet(id);
+        if (response.Data == null)
+        {
+            return NotFound(response);
+        }
+        return Ok(response);
     }
 }
