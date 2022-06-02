@@ -1,11 +1,12 @@
+using VetApp.Api.Dtos.Vet;
 using VetApp.Api.Models;
 
 namespace VetApp.Api.Services.VetService;
 
 public interface IVetService
     {
-        Task<ServiceResponse<List<Vet>>> GetAllVets();
-        Task<ServiceResponse<Vet>> GetVetById(int id);
-        Task<ServiceResponse<List<Vet>>> AddVet(Vet newVet);
+        Task<ServiceResponse<List<GetVetDto>>> GetAllVets();
+        Task<ServiceResponse<GetVetDto>> GetVetById(int id);
+        Task<ServiceResponse<List<GetVetDto>>> AddVet(AddVetDto newVet);
         
 }

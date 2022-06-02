@@ -25,3 +25,5 @@ E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\obj\Debug\net6.0\VetApp.A
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\obj\Debug\net6.0\ref\VetApp.Api.dll
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\obj\Debug\net6.0\VetApp.Api.pdb
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\obj\Debug\net6.0\VetApp.Api.genruntimeconfig.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\bin\Debug\net6.0\AutoMapper.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
