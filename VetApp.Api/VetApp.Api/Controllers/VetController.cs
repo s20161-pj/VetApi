@@ -30,4 +30,14 @@ public class VetController : ControllerBase
     {
         return Ok(await _vetService.AddVet(newVet));
     }
+    [HttpPut]
+    public async Task<ActionResult<ServiceResponse<GetVetDto>>>UpdateVet(UpdateVetDto updatedVet)
+    {
+        var response = await _vetService.UpdateVet(updatedVet);
+        if(response.Data == null)
+        {
+            return NotFound(response);
+        }
+        return Ok (response);
+    }
 }

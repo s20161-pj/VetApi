@@ -13,7 +13,7 @@ public class VetService : IVetService
     public async Task<ServiceResponse<List<GetVetDto>>> GetAllVets()
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        serviceResponse.Data = vets.Select(e=>_mapper.Map<GetVetDto>(e)).ToList();
+        serviceResponse.Data = vets.Select(e => _mapper.Map<GetVetDto>(e)).ToList();
         return serviceResponse;
     }
 
@@ -35,7 +35,31 @@ public class VetService : IVetService
         Vet vet = _mapper.Map<Vet>(newVet);
         vet.Id = vets.Max(c => c.Id) + 1;
         vets.Add(vet);
-        serviceResponse.Data = vets.Select(v=>_mapper.Map<GetVetDto>(v)).ToList();
+        serviceResponse.Data = vets.Select(v => _mapper.Map<GetVetDto>(v)).ToList();
         return serviceResponse;
     }
+
+    public async Task<ServiceResponse<GetVetDto>> UpdateVet(UpdateVetDto updatedVet)
+    {
+        var serviceResponse = new ServiceResponse<GetVetDto>();
+        try
+        {
+            Vet vet = vets.FirstOrDefault(c => c.Id == updatedVet.Id);
+            vet.Name = updatedVet.Name;
+            vet.Surname = updatedVet.Surname;
+            vet.OccupationNumber = updatedVet.OccupationNumber;
+            vet.ClinicId = updatedVet.ClinicId;
+
+            serviceResponse.Data = _mapper.Map<GetVetDto>(vet);
+        }
+        catch (Exception ex)
+        {
+            serviceResponse.Success = false;
+            serviceResponse.Message = ex.Message;
+        }
+        return serviceResponse;
+
+    }
+
+
 }
