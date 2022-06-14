@@ -1,4 +1,6 @@
 
+using Microsoft.EntityFrameworkCore;
+using VetApp.Api.Context;
 using VetApp.Api.Services.VetService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IVetService, VetService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddDbContext<MainContext>(options => options.UseSqlite("DataSource=dbo.VetApp.db"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
