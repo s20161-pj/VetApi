@@ -16,7 +16,7 @@ namespace VetApp.Api.Context
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(connectionString: "DataSource=dbo.VetApp.db");
+            optionsBuilder.UseSqlite("DataSource=dbo.VetApp.db");
         }
       
     }

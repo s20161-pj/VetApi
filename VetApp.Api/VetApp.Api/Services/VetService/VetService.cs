@@ -1,4 +1,6 @@
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using VetApp.Api.Context;
 using VetApp.Api.Dtos.Vet;
 using VetApp.Api.Models;
 namespace VetApp.Api.Services.VetService;
@@ -10,22 +12,28 @@ public class VetService : IVetService
         new Vet(),
         new Vet {Id=1, Name = "Joanna" }
     };
+  
+    public MainContext Context { get; private set; }
+
+    private readonly MainContext _context;
+    private readonly IMapper _mapper;
+    public VetService(IMapper mapper, MainContext context)
+    {
+        _context = context;
+        _mapper = mapper;
+    }
     public async Task<ServiceResponse<List<GetVetDto>>> GetAllVets()
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        serviceResponse.Data = vets.Select(e => _mapper.Map<GetVetDto>(e)).ToList();
+        var dbVets = await _context.Vet.ToListAsync();
+        serviceResponse.Data = dbVets.Select(e => _mapper.Map<GetVetDto>(e)).ToList();
         return serviceResponse;
-    }
-
-    private readonly IMapper _mapper;
-    public VetService(IMapper mapper)
-    {
-        _mapper = mapper;
     }
     public async Task<ServiceResponse<GetVetDto>> GetVetById(int id)
     {
         var serviceResponse = new ServiceResponse<GetVetDto>();
-        serviceResponse.Data = _mapper.Map<GetVetDto>(vets.FirstOrDefault(v => v.Id == id));
+        var dbVet = await _context.Vet.FirstOrDefaultAsync(v => v.Id == id);
+        serviceResponse.Data = _mapper.Map<GetVetDto>(dbVet);
         return serviceResponse;
     }
 
