@@ -41,9 +41,9 @@ public class VetService : IVetService
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
         Vet vet = _mapper.Map<Vet>(newVet);
-        vet.Id = vets.Max(c => c.Id) + 1;
-        vets.Add(vet);
-        serviceResponse.Data = vets.Select(v => _mapper.Map<GetVetDto>(v)).ToList();
+        _context.Vet.Add(vet);
+        await _context.SaveChangesAsync();
+        serviceResponse.Data =await _context.Vet.Select(v => _mapper.Map<GetVetDto>(v)).ToListAsync();
         return serviceResponse;
     }
 

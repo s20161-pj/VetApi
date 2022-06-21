@@ -1,0 +1,482 @@
+﻿++Solution 'VetApp.Api' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:VetApp.Api.sln
+++VetApp.Api
+i:{00000000-0000-0000-0000-000000000000}:VetApp.Api
+++Connected Services 
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>323
+++Dependencies
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>322
+++Imports
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>91
+++Properties
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\properties\
+++bin
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\
+++Controllers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\controllers\
+++VetController.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\controllers\vetcontroller.cs
+++Dtos
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dtos\
+++Vet
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dtos\vet\
+++AddVetDto.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dtos\vet\addvetdto.cs
+++GetVetDto.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dtos\vet\getvetdto.cs
+++Models
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\models\
+++ServiceResponse.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\models\serviceresponse.cs
+++TypeOfVisit.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\models\typeofvisit.cs
+++Vet.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\models\vet.cs
+++VeterinaryVisit.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\models\veterinaryvisit.cs
+++obj
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\
+++Services
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\services\
+++VetService
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\services\vetservice\
+++IVetService.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\services\vetservice\ivetservice.cs
+++VetService.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\services\vetservice\vetservice.cs
+++appsettings.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\appsettings.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\appsettings.json
+++appsettings.Development.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\appsettings.development.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\appsettings.development.json
+++AutoMapperProfile.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\automapperprofile.cs
+++Dockerfile
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dockerfile
+++.dockerignore
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\.dockerignore
+++Program.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\program.cs
+++No service dependencies discovered
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>324
+++Analyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:analyzers
+++Frameworks
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:frameworks
+++Packages
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:packages
+++Sdk.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\sdk\sdk.targets
+++launchSettings.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\properties\launchsettings.json
+++Debug
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\
+++Release
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\release\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\
+++project.assets.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\project.assets.json
+++project.nuget.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\project.nuget.cache
+++project.packagespec.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\project.packagespec.json
+++rider.project.restore.info
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\rider.project.restore.info
+++staticwebassets.pack.sentinel
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\staticwebassets.pack.sentinel
+++VetApp.Api.csproj.nuget.dgspec.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\vetapp.api.csproj.nuget.dgspec.json
+++VetApp.Api.csproj.nuget.g.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\vetapp.api.csproj.nuget.g.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\vetapp.api.csproj.nuget.g.props
+++VetApp.Api.csproj.nuget.g.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\vetapp.api.csproj.nuget.g.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\vetapp.api.csproj.nuget.g.targets
+++Microsoft.AspNetCore.Analyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\microsoft.netcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>341
+++Swashbuckle.AspNetCore (6.2.3)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:>342
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.props
+++Sdk.props (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.props
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Razor\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Web.ProjectSystem\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\sdk\sdk.targets
+++Sdk.targets (C:\Program Files\dotnet\sdk\6.0.100\Sdks\Microsoft.NET.Sdk.Publish\Sdk)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\sdk\sdk.targets
+++net6.0
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\release\net6.0\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\
+++Microsoft.Common.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Sdk.Razor.CurrentVersion.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.props
+++Microsoft.NET.Sdk.Web.ProjectSystem.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.props
+++Microsoft.NET.Sdk.Publish.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Sdk.Razor.CurrentVersion.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\sdk.razor.currentversion.targets
+++Microsoft.NET.Sdk.Web.ProjectSystem.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.projectsystem.targets
+++Microsoft.NET.Sdk.Publish.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\microsoft.net.sdk.publish.targets
+++ref
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\ref\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\release\net6.0\ref\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\ref\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\ref\
+++AutoMapper.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\automapper.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\automapper.extensions.microsoft.dependencyinjection.dll
+++Microsoft.OpenApi.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\microsoft.openapi.dll
+++Swashbuckle.AspNetCore.Swagger.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\swashbuckle.aspnetcore.swagger.dll
+++Swashbuckle.AspNetCore.SwaggerGen.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\swashbuckle.aspnetcore.swaggergen.dll
+++Swashbuckle.AspNetCore.SwaggerUI.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\swashbuckle.aspnetcore.swaggerui.dll
+++VetApp.Api.deps.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\vetapp.api.deps.json
+++VetApp.Api.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\vetapp.api.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\ref\vetapp.api.dll
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\ref\vetapp.api.dll
+++VetApp.Api.exe
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\vetapp.api.exe
+++VetApp.Api.pdb
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\vetapp.api.pdb
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.pdb
+++VetApp.Api.runtimeconfig.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\bin\debug\net6.0\vetapp.api.runtimeconfig.json
+++staticwebassets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\staticwebassets\
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\staticwebassets\
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++apphost.exe
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\apphost.exe
+++staticwebassets.build.json
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\staticwebassets.build.json
+++VetApp.Api.AssemblyInfo.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.assemblyinfo.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\vetapp.api.assemblyinfo.cs
+++VetApp.Api.AssemblyInfoInputs.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.assemblyinfoinputs.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\vetapp.api.assemblyinfoinputs.cache
+++VetApp.Api.assets.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.assets.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\vetapp.api.assets.cache
+++VetApp.Api.csproj.AssemblyReference.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.csproj.assemblyreference.cache
+++VetApp.Api.csproj.CopyComplete
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.csproj.copycomplete
+++VetApp.Api.csproj.CoreCompileInputs.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.csproj.corecompileinputs.cache
+++VetApp.Api.csproj.FileListAbsolute.txt
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.csproj.filelistabsolute.txt
+++VetApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.generatedmsbuildeditorconfig.editorconfig
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\vetapp.api.generatedmsbuildeditorconfig.editorconfig
+++VetApp.Api.genruntimeconfig.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.genruntimeconfig.cache
+++VetApp.Api.GlobalUsings.g.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.globalusings.g.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\release\net6.0\vetapp.api.globalusings.g.cs
+++VetApp.Api.MvcApplicationPartsAssemblyInfo.cache
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.mvcapplicationpartsassemblyinfo.cache
+++VetApp.Api.MvcApplicationPartsAssemblyInfo.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\obj\debug\net6.0\vetapp.api.mvcapplicationpartsassemblyinfo.cs
+++Microsoft.NuGet.ImportBefore.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Sdk.Razor.StaticAssets.ProjectSystem.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\sdk\sdk.razor.staticassets.projectsystem.props
+++Microsoft.TypeScript.Default.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.default.props
+++Microsoft.NET.Sdk.Web.DefaultItems.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web.projectsystem\targets\microsoft.net.sdk.web.defaultitems.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.Razor.BeforeCommon.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.beforecommon.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++Microsoft.NET.Sdk.Razor.Configuration.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.configuration.targets
+++Microsoft.NET.Sdk.Razor.CodeGeneration.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.codegeneration.targets
+++Microsoft.NET.Sdk.Razor.SourceGenerators.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.sourcegenerators.targets
+++Microsoft.NET.Sdk.Razor.StaticWebAssets.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.staticwebassets.targets
+++Microsoft.NET.Sdk.Razor.ScopedCss.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.scopedcss.targets
+++Microsoft.NET.Sdk.Razor.JSModules.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.jsmodules.targets
+++Microsoft.NET.Sdk.Razor.GenerateAssemblyInfo.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.generateassemblyinfo.targets
+++Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\targets\microsoft.net.sdk.razor.mvcapplicationpartsdiscovery.targets
+++Microsoft.NET.Sdk.Razor.DesignTime.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\razor\microsoft.net.sdk.razor.designtime.targets
+++Microsoft.TypeScript.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.targets
+++Microsoft.TypeScript.DotNetCore.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\typescript\microsoft.typescript.dotnetcore.targets
+++Microsoft.Web.Designtime.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\managed.web\microsoft.web.designtime.targets
+++Default.pubxml
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\publishprofiles\default.pubxml
+++Microsoft.NET.Sdk.Publish.ComputeFiles.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\computetargets\microsoft.net.sdk.publish.computefiles.targets
+++Microsoft.NET.Sdk.Publish.FilterFiles.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.filterfiles.targets
+++Microsoft.NET.Sdk.Publish.CopyFiles.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\copytargets\microsoft.net.sdk.publish.copyfiles.targets
+++Microsoft.NET.Sdk.Publish.TransformFiles.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\transformtargets\microsoft.net.sdk.publish.transformfiles.targets
+++Microsoft.NET.Sdk.Publish.FileSystem.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\publishtargets\microsoft.net.sdk.publish.filesystem.targets
+++Microsoft.NET.Sdk.DotNetCLITool.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.publish\targets\dotnetclitooltargets\microsoft.net.sdk.dotnetclitool.targets
+++Microsoft.Extensions.ApiDescription.Server.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\users\home\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.props
+++Swashbuckle.AspNetCore.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\users\home\.nuget\packages\swashbuckle.aspnetcore\6.2.3\build\swashbuckle.aspnetcore.props
+++Microsoft.NuGet.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.NET.props
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.targets\importafter\microsoft.visualstudio.azure.fabric.serviceproject.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.Extensions.ApiDescription.Server.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:c:\users\home\.nuget\packages\microsoft.extensions.apidescription.server\3.0.0\build\microsoft.extensions.apidescription.server.targets
+++Microsoft.Docker.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\v17.0\service fabric tools\microsoft.visualstudio.azure.fabric.serviceproject.targets
+++Microsoft.Web.IISSupport.targets
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\visual studio\msbuild\microsoft\visualstudio\managed.web\microsoft.web.iissupport.targets
+++dctj5c0s.12o~
+++altpx0l1.24h~
+++UpdateVetDto.cs
+i:{f445ed5d-d8d5-4926-916b-cec6c55a412b}:e:\kurs_net\uczelnia_net\projekt\vetapp.api\vetapp.api\dtos\vet\updatevetdto.cs
+++v1l0dxhd.yui~
+++dfovx0q4.fyt~
