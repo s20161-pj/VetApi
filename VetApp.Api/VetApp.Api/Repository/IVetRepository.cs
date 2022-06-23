@@ -1,0 +1,14 @@
+﻿using VetApp.Api.Dtos.Vet;
+using VetApp.Api.Models;
+
+namespace VetApp.Api.Repository
+{
+    public interface IVetRepository
+    {
+        Task<List<GetVetDto>> GetAllVetsAsync();
+        Task<GetVetDto> GetVetByIdAsync(int id);
+        Task<List<GetVetDto>> AddVetAsync(AddVetDto newVet);
+        Task<GetVetDto> UpdateVetAsync(UpdateVetDto updatedVet);
+        Task DeleteVetAsync(int id);
+    }
+}

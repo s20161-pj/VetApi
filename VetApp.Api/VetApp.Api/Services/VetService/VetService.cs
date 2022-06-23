@@ -3,58 +3,52 @@ using Microsoft.EntityFrameworkCore;
 using VetApp.Api.Context;
 using VetApp.Api.Dtos.Vet;
 using VetApp.Api.Models;
+using VetApp.Api.Repository;
+
 namespace VetApp.Api.Services.VetService;
 
 public class VetService : IVetService
 {
     public MainContext Context { get; private set; }
 
-    private readonly MainContext _context;
+    private readonly IVetRepository _vetRepository;
     private readonly IMapper _mapper;
-    public VetService(IMapper mapper, MainContext context)
+    public VetService(IMapper mapper, IVetRepository vetRepository)
     {
-        _context = context;
         _mapper = mapper;
+        _vetRepository = vetRepository;
     }
     public async Task<ServiceResponse<List<GetVetDto>>> GetAllVets()
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        var dbVets = await _context.Vets.ToListAsync();
-        serviceResponse.Data = dbVets.Select(e => _mapper.Map<GetVetDto>(e)).ToList();
+        var dbVets = await _vetRepository.GetAllVetsAsync();
+        serviceResponse.Data = dbVets;
         return serviceResponse;
     }
     public async Task<ServiceResponse<GetVetDto>> GetVetById(int id)
     {
         var serviceResponse = new ServiceResponse<GetVetDto>();
-        var dbVet = await _context.Vets.FirstOrDefaultAsync(v => v.Id == id);
-        serviceResponse.Data = _mapper.Map<GetVetDto>(dbVet);
+        var dbVet = await _vetRepository.GetVetByIdAsync(id);
+        serviceResponse.Data = dbVet;
         return serviceResponse;
     }
 
     public async Task<ServiceResponse<List<GetVetDto>>> AddVet(AddVetDto newVet)
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        Vet vet = _mapper.Map<Vet>(newVet);
-        _context.Vets.Add(vet);
-        await _context.SaveChangesAsync();
-        serviceResponse.Data =await _context.Vets.Select(v => _mapper.Map<GetVetDto>(v)).ToListAsync();
+        var addedVet = await _vetRepository.AddVetAsync(newVet);
+        serviceResponse.Data = addedVet;
         return serviceResponse;
     }
 
-    public async Task<ServiceResponse<GetVetDto>> UpdateVet(UpdateVetDto updatedVet)
+    public async Task<ServiceResponse<GetVetDto>> UpdateVet(UpdateVetDto vetToUpdate)
     {
         var serviceResponse = new ServiceResponse<GetVetDto>();
         try
         {
-            Vet vet = await _context.Vets.FirstAsync(v => v.Id == updatedVet.Id);
-
-            vet.Name = updatedVet.Name;
-            vet.Surname = updatedVet.Surname;
-            vet.OccupationNumber = updatedVet.OccupationNumber;
-            vet.ClinicId = updatedVet.ClinicId;
-
-            await _context.SaveChangesAsync();
-            serviceResponse.Data = _mapper.Map<GetVetDto>(vet);
+            var updatedVet = await _vetRepository.UpdateVetAsync(vetToUpdate);
+          
+            serviceResponse.Data = updatedVet;
         }
         catch (Exception ex)
         {
@@ -65,15 +59,13 @@ public class VetService : IVetService
 
     }
 
-    public async Task<ServiceResponse<List<GetVetDto>>> DeleteVet(int id)
+    public async Task<ServiceResponse<bool>> DeleteVet(int id)
     {
-        var serviceResponse = new ServiceResponse<List<GetVetDto>>();
+        var serviceResponse = new ServiceResponse<bool>();
         try
         {
-            Vet vet = await _context.Vets.FirstAsync(c => c.Id == id);
-            _context.Vets.Remove(vet);
-            await _context.SaveChangesAsync();
-            serviceResponse.Data = _context.Vets.Select(c => _mapper.Map<GetVetDto>(c)).ToList();
+            await _vetRepository.DeleteVetAsync(id);
+            serviceResponse.Data = true;
         }
         catch (Exception ex)
         {

@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using VetApp.Api.Context;
+using VetApp.Api.Repository;
 using VetApp.Api.Services.VetService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IVetService, VetService>();
+builder.Services.AddScoped<IVetRepository, VetRepository>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<MainContext>(options => options.UseSqlite("DataSource=dbo.VetApp.db"));
 var app = builder.Build();
