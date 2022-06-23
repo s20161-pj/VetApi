@@ -4,12 +4,12 @@
 
 namespace VetApp.Api.Migrations
 {
-    public partial class initial : Migration
+    public partial class updatetable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Vet",
+                name: "Vets",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
@@ -21,14 +21,14 @@ namespace VetApp.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vet", x => x.Id);
+                    table.PrimaryKey("PK_Vets", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Vet");
+                name: "Vets");
         }
     }
 }

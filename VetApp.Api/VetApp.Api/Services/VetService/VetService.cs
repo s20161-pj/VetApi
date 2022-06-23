@@ -25,14 +25,14 @@ public class VetService : IVetService
     public async Task<ServiceResponse<List<GetVetDto>>> GetAllVets()
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        var dbVets = await _context.Vet.ToListAsync();
+        var dbVets = await _context.Vets.ToListAsync();
         serviceResponse.Data = dbVets.Select(e => _mapper.Map<GetVetDto>(e)).ToList();
         return serviceResponse;
     }
     public async Task<ServiceResponse<GetVetDto>> GetVetById(int id)
     {
         var serviceResponse = new ServiceResponse<GetVetDto>();
-        var dbVet = await _context.Vet.FirstOrDefaultAsync(v => v.Id == id);
+        var dbVet = await _context.Vets.FirstOrDefaultAsync(v => v.Id == id);
         serviceResponse.Data = _mapper.Map<GetVetDto>(dbVet);
         return serviceResponse;
     }
@@ -41,9 +41,9 @@ public class VetService : IVetService
     {
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
         Vet vet = _mapper.Map<Vet>(newVet);
-        _context.Vet.Add(vet);
+        _context.Vets.Add(vet);
         await _context.SaveChangesAsync();
-        serviceResponse.Data =await _context.Vet.Select(v => _mapper.Map<GetVetDto>(v)).ToListAsync();
+        serviceResponse.Data =await _context.Vets.Select(v => _mapper.Map<GetVetDto>(v)).ToListAsync();
         return serviceResponse;
     }
 
@@ -52,12 +52,14 @@ public class VetService : IVetService
         var serviceResponse = new ServiceResponse<GetVetDto>();
         try
         {
-            Vet vet = vets.FirstOrDefault(c => c.Id == updatedVet.Id);
+            Vet vet = await _context.Vets.FirstAsync(v => v.Id == updatedVet.Id);
+
             vet.Name = updatedVet.Name;
             vet.Surname = updatedVet.Surname;
             vet.OccupationNumber = updatedVet.OccupationNumber;
             vet.ClinicId = updatedVet.ClinicId;
 
+            await _context.SaveChangesAsync();
             serviceResponse.Data = _mapper.Map<GetVetDto>(vet);
         }
         catch (Exception ex)

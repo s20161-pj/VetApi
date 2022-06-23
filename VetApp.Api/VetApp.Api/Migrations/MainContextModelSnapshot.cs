@@ -39,7 +39,7 @@ namespace VetApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Vet");
+                    b.ToTable("Vets");
                 });
 #pragma warning restore 612, 618
         }

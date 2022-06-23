@@ -5,7 +5,7 @@ namespace VetApp.Api.Context
 {
     public class MainContext : DbContext
     {
-        public DbSet<Vet> Vet { get; set; }
+        public DbSet<Vet> Vets { get; set; }
         public MainContext()
         {
 

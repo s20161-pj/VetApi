@@ -10,8 +10,8 @@ using VetApp.Api.Context;
 namespace VetApp.Api.Migrations
 {
     [DbContext(typeof(MainContext))]
-    [Migration("20220614121145_initial")]
-    partial class initial
+    [Migration("20220621121622_update table")]
+    partial class updatetable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,7 +41,7 @@ namespace VetApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Vet");
+                    b.ToTable("Vets");
                 });
 #pragma warning restore 612, 618
         }
