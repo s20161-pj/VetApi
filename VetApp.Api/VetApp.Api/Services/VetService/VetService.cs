@@ -7,12 +7,6 @@ namespace VetApp.Api.Services.VetService;
 
 public class VetService : IVetService
 {
-    private static List<Vet> vets = new List<Vet>
-    {
-        new Vet(),
-        new Vet {Id=1, Name = "Joanna" }
-    };
-  
     public MainContext Context { get; private set; }
 
     private readonly MainContext _context;
@@ -76,10 +70,10 @@ public class VetService : IVetService
         var serviceResponse = new ServiceResponse<List<GetVetDto>>();
         try
         {
-            Vet vet = vets.First(c => c.Id == id);
-            vets.Remove(vet);
-
-            serviceResponse.Data = vets.Select(c => _mapper.Map<GetVetDto>(c)).ToList();
+            Vet vet = await _context.Vets.FirstAsync(c => c.Id == id);
+            _context.Vets.Remove(vet);
+            await _context.SaveChangesAsync();
+            serviceResponse.Data = _context.Vets.Select(c => _mapper.Map<GetVetDto>(c)).ToList();
         }
         catch (Exception ex)
         {
