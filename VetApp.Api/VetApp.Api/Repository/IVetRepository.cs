@@ -1,5 +1,4 @@
 ﻿using VetApp.Api.Dtos.Vet;
-using VetApp.Api.Models;
 
 namespace VetApp.Api.Repository
 {

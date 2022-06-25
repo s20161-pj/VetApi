@@ -9,29 +9,28 @@ namespace VetApp.Api.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Clinic",
+                name: "Clinics",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(type: "TEXT", nullable: true)
+                    Name = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Clinic", x => x.Id);
+                    table.PrimaryKey("PK_Clinics", x => x.Id);
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Vets_ClinicId",
                 table: "Vets",
-                column: "ClinicId",
-                unique: true);
+                column: "ClinicId");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Vets_Clinic_ClinicId",
+                name: "FK_Vets_Clinics_ClinicId",
                 table: "Vets",
                 column: "ClinicId",
-                principalTable: "Clinic",
+                principalTable: "Clinics",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Cascade);
         }
@@ -39,11 +38,11 @@ namespace VetApp.Api.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_Vets_Clinic_ClinicId",
+                name: "FK_Vets_Clinics_ClinicId",
                 table: "Vets");
 
             migrationBuilder.DropTable(
-                name: "Clinic");
+                name: "Clinics");
 
             migrationBuilder.DropIndex(
                 name: "IX_Vets_ClinicId",

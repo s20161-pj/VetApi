@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using VetApp.Api.Dtos.Clinic;
 using VetApp.Api.Dtos.Vet;
 using VetApp.Api.Models;
 
@@ -10,6 +11,8 @@ namespace VetApp.Api
         {
             CreateMap<Vet, GetVetDto>();
             CreateMap<AddVetDto, Vet>();
+            CreateMap<Clinic, GetClinicDto>();
+            CreateMap<AddClinicDto, Clinic>();
         }
     }
 }

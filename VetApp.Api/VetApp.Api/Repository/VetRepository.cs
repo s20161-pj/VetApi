@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using VetApp.Api.Context;
 using VetApp.Api.Dtos.Vet;
 using VetApp.Api.Models;

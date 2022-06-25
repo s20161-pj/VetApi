@@ -1,9 +1,10 @@
 ﻿namespace VetApp.Api.Models
 {
-    public class Clinic
+    public class Client
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<Vet> Vets { get; set; }
+        public string Surname { get; set; }
+
     }
 }

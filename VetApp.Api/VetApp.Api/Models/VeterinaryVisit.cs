@@ -6,4 +6,5 @@ public class VeterinaryVisit
     public TypeOfVisit Class { get; set; } = TypeOfVisit.Diagnostics;
     public DateTime DateOfVisit { get; set; }
     public int VetId { get; set; }
+    public Vet Vet { get; set; }
 }

@@ -23,11 +23,12 @@ namespace VetApp.Api.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clinic");
+                    b.ToTable("Clinics");
                 });
 
             modelBuilder.Entity("VetApp.Api.Models.Vet", b =>
@@ -53,8 +54,7 @@ namespace VetApp.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClinicId")
-                        .IsUnique();
+                    b.HasIndex("ClinicId");
 
                     b.ToTable("Vets");
                 });
@@ -62,8 +62,8 @@ namespace VetApp.Api.Migrations
             modelBuilder.Entity("VetApp.Api.Models.Vet", b =>
                 {
                     b.HasOne("VetApp.Api.Models.Clinic", "Clinic")
-                        .WithOne("Vet")
-                        .HasForeignKey("VetApp.Api.Models.Vet", "ClinicId")
+                        .WithMany("Vets")
+                        .HasForeignKey("ClinicId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -72,8 +72,7 @@ namespace VetApp.Api.Migrations
 
             modelBuilder.Entity("VetApp.Api.Models.Clinic", b =>
                 {
-                    b.Navigation("Vet")
-                        .IsRequired();
+                    b.Navigation("Vets");
                 });
 #pragma warning restore 612, 618
         }

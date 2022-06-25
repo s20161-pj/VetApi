@@ -8,4 +8,5 @@ public class Vet
     public string OccupationNumber { get; set; }
     public int ClinicId { get; set; }
     public Clinic Clinic {get; set;}
+    public List<VeterinaryVisit> VeterinaryVisit { get; set; }
 }
