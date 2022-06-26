@@ -9,4 +9,6 @@ public class Vet
     public int ClinicId { get; set; }
     public Clinic Clinic {get; set;}
     public List<VeterinaryVisit> VeterinaryVisit { get; set; }
+
+
 }

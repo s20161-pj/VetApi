@@ -28,12 +28,11 @@ namespace VetApp.Api.Repository
             var dbVet = await _mainContext.Vets.FirstOrDefaultAsync(v => v.Id == id);
             return _mapper.Map<GetVetDto>(dbVet);
         }
-        public async Task<List<GetVetDto>> AddVetAsync(AddVetDto newVet)
+        public async Task AddVetAsync(AddVetDto newVet)
         {
             Vet vet = _mapper.Map<Vet>(newVet);
             _mainContext.Vets.Add(vet);
             await _mainContext.SaveChangesAsync();
-            return await _mainContext.Vets.Select(v => _mapper.Map<GetVetDto>(v)).ToListAsync();
         }
         public async Task<GetVetDto> UpdateVetAsync(UpdateVetDto updatedVet)
         {

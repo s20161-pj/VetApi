@@ -6,7 +6,7 @@ namespace VetApp.Api.Repository
     {
         Task<List<GetVetDto>> GetAllVetsAsync();
         Task<GetVetDto> GetVetByIdAsync(int id);
-        Task<List<GetVetDto>> AddVetAsync(AddVetDto newVet);
+        Task AddVetAsync(AddVetDto newVet);
         Task<GetVetDto> UpdateVetAsync(UpdateVetDto updatedVet);
         Task DeleteVetAsync(int id);
     }

@@ -33,11 +33,21 @@ public class VetService : IVetService
         return serviceResponse;
     }
 
-    public async Task<ServiceResponse<List<GetVetDto>>> AddVet(AddVetDto newVet)
+    public async Task<ServiceResponse<bool>> AddVet(AddVetDto newVet)
     {
-        var serviceResponse = new ServiceResponse<List<GetVetDto>>();
-        var addedVet = await _vetRepository.AddVetAsync(newVet);
-        serviceResponse.Data = addedVet;
+        var serviceResponse = new ServiceResponse<bool>();
+        
+        try
+        {
+            await _vetRepository.AddVetAsync(newVet);
+            serviceResponse.Data = true;
+        }
+        catch (Exception ex)
+        {
+            serviceResponse.Success = false;
+            serviceResponse.Message = ex.Message;
+        }
+
         return serviceResponse;
     }
 

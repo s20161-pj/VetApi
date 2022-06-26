@@ -7,7 +7,7 @@ public interface IVetService
 {
     Task<ServiceResponse<List<GetVetDto>>> GetAllVets();
     Task<ServiceResponse<GetVetDto>> GetVetById(int id);
-    Task<ServiceResponse<List<GetVetDto>>> AddVet(AddVetDto newVet);
+    Task<ServiceResponse<bool>> AddVet(AddVetDto newVet);
     Task<ServiceResponse<GetVetDto>> UpdateVet(UpdateVetDto updatedVet);
     Task<ServiceResponse<bool>> DeleteVet(int id);
 }
