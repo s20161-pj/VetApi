@@ -15,9 +15,28 @@ namespace VetApp.Api.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "6.0.5");
+            modelBuilder.HasAnnotation("ProductVersion", "6.0.6");
 
-            modelBuilder.Entity("VetApp.Api.Models.Clinic", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Client", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clients");
+                });
+
+            modelBuilder.Entity("VetApp.DataAccess.Models.Clinic", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -40,7 +59,47 @@ namespace VetApp.Api.Migrations
                     b.ToTable("Clinics");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Specialization", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Pet", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ClientId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("IdentificationNumber")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NameOfThePetOwner")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PetAddress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SpeciesOfThePet")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SurnameOfThePetOwner")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.ToTable("Pets");
+                });
+
+            modelBuilder.Entity("VetApp.DataAccess.Models.Specialization", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -60,7 +119,7 @@ namespace VetApp.Api.Migrations
                     b.ToTable("Specializations");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Vet", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Vet", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -88,13 +147,16 @@ namespace VetApp.Api.Migrations
                     b.ToTable("Vets");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.VeterinaryVisit", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.VeterinaryVisit", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Class")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ClientId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("DateOfVisit")
@@ -105,21 +167,34 @@ namespace VetApp.Api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ClientId");
+
                     b.HasIndex("VetId");
 
                     b.ToTable("VeterinaryVisit");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Specialization", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Pet", b =>
                 {
-                    b.HasOne("VetApp.Api.Models.Vet", null)
+                    b.HasOne("VetApp.DataAccess.Models.Client", "Client")
+                        .WithMany("Pet")
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Client");
+                });
+
+            modelBuilder.Entity("VetApp.DataAccess.Models.Specialization", b =>
+                {
+                    b.HasOne("VetApp.DataAccess.Models.Vet", null)
                         .WithMany("Specialization")
                         .HasForeignKey("VetId");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Vet", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Vet", b =>
                 {
-                    b.HasOne("VetApp.Api.Models.Clinic", "Clinic")
+                    b.HasOne("VetApp.DataAccess.Models.Clinic", "Clinic")
                         .WithMany("Vets")
                         .HasForeignKey("ClinicId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -128,23 +203,38 @@ namespace VetApp.Api.Migrations
                     b.Navigation("Clinic");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.VeterinaryVisit", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.VeterinaryVisit", b =>
                 {
-                    b.HasOne("VetApp.Api.Models.Vet", "Vet")
+                    b.HasOne("VetApp.DataAccess.Models.Client", "Client")
+                        .WithMany("VeterinaryVisit")
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("VetApp.DataAccess.Models.Vet", "Vet")
                         .WithMany("VeterinaryVisit")
                         .HasForeignKey("VetId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Client");
+
                     b.Navigation("Vet");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Clinic", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Client", b =>
+                {
+                    b.Navigation("Pet");
+
+                    b.Navigation("VeterinaryVisit");
+                });
+
+            modelBuilder.Entity("VetApp.DataAccess.Models.Clinic", b =>
                 {
                     b.Navigation("Vets");
                 });
 
-            modelBuilder.Entity("VetApp.Api.Models.Vet", b =>
+            modelBuilder.Entity("VetApp.DataAccess.Models.Vet", b =>
                 {
                     b.Navigation("Specialization");
 

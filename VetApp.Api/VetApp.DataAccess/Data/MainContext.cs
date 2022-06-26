@@ -8,6 +8,10 @@ namespace VetApp.Api.Context
         public DbSet<Vet> Vets { get; set; }
         public DbSet<Clinic> Clinics { get; set; }
         public DbSet<Specialization> Specializations { get; set; }
+        public DbSet<VeterinaryVisit> VeterinaryVisit { get; set; }
+        public DbSet<VeterinaryVisit> VeterinaryVisits { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Pet> Pets { get; set; }
         public MainContext()
         {
 

@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VetApp.DataAccess\VetApp.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -47,6 +47,12 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[6.0.6, )"
@@ -101,7 +107,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

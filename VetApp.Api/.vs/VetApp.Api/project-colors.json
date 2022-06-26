@@ -10,7 +10,27 @@
       "ProjectGuid": "f445ed5d-d8d5-4926-916b-cec6c55a412b",
       "DisplayName": "VetApp.Api",
       "ColorIndex": 0
+    },
+    "62af93e7-bf5f-40d6-b7da-135607058b13": {
+      "ProjectGuid": "62af93e7-bf5f-40d6-b7da-135607058b13",
+      "DisplayName": "VetApp.Repository",
+      "ColorIndex": 1
+    },
+    "937086df-fcd1-4f5f-981f-140943ab50d6": {
+      "ProjectGuid": "937086df-fcd1-4f5f-981f-140943ab50d6",
+      "DisplayName": "VetApp.Model",
+      "ColorIndex": 2
+    },
+    "c93b9b5d-6e7d-479c-9b69-792616fe5697": {
+      "ProjectGuid": "c93b9b5d-6e7d-479c-9b69-792616fe5697",
+      "DisplayName": "VetApp.DataAccess",
+      "ColorIndex": 3
+    },
+    "cafbd3ae-1da8-4c9e-b938-87b20c3285e7": {
+      "ProjectGuid": "cafbd3ae-1da8-4c9e-b938-87b20c3285e7",
+      "DisplayName": "VetApp.Services",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 5
 }

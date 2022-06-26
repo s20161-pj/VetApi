@@ -10,3 +10,5 @@ E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\V
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\ref\VetApp.DataAccess.dll
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.pdb
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.AssemblyReference.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.runtimeconfig.json
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.genruntimeconfig.cache

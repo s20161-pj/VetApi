@@ -364,6 +364,9 @@
         }
       },
       "VetApp.Model/1.0.0": {
+        "dependencies": {
+          "VetApp.DataAccess": "1.0.0"
+        },
         "runtime": {
           "VetApp.Model.dll": {}
         }

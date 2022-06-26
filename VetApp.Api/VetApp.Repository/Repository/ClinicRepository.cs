@@ -32,10 +32,10 @@ namespace VetApp.Repository.Repository
 
         public async Task<GetClinicDto> GetClinicByIdAsync(int id)
         {
-
             var dbClinic = await _mainContext.Clinics.FirstOrDefaultAsync(c => c.Id == id);
             return _mapper.Map<GetClinicDto>(dbClinic);
         }
+
         public async Task DeleteClinicAsync(int id)
         {
             Clinic clinic = await _mainContext.Clinics.FirstAsync(c => c.Id == id);
@@ -43,4 +43,6 @@ namespace VetApp.Repository.Repository
             await _mainContext.SaveChangesAsync();
         }
     }
-}
+
+        
+    }

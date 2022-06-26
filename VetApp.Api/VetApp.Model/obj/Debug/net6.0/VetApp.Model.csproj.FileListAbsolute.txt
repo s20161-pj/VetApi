@@ -9,3 +9,7 @@ E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.dll
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\ref\VetApp.Model.dll
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.pdb
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp.DataAccess.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp.DataAccess.pdb
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.csproj.AssemblyReference.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.csproj.CopyComplete

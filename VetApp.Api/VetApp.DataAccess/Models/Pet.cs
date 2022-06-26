@@ -9,6 +9,7 @@
         public string NameOfThePetOwner { get; set; }
         public string SurnameOfThePetOwner { get; set; }
         public string PetAddress { get; set; }
+        public Client Client {get; set;}
 
     }
 }
