@@ -30,7 +30,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj"
+              },
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj"
+              },
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,13 +57,9 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -63,7 +69,7 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
@@ -96,6 +102,277 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj",
+        "projectName": "VetApp.DataAccess",
+        "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj",
+        "projectName": "VetApp.Model",
+        "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj",
+        "projectName": "VetApp.Repository",
+        "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj"
+              },
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj",
+        "projectName": "VetApp.Services",
+        "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj",
+        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
+        "outputPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.DataAccess\\VetApp.DataAccess.csproj"
+              },
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Model\\VetApp.Model.csproj"
+              },
+              "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj": {
+                "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Repository\\VetApp.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

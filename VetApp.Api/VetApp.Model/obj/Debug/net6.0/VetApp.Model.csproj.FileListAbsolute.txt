@@ -1,0 +1,11 @@
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.AssemblyInfoInputs.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.AssemblyInfo.cs
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.csproj.CoreCompileInputs.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp.Model.deps.json
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp.Model.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\ref\VetApp.Model.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\bin\Debug\net6.0\VetApp.Model.pdb
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\ref\VetApp.Model.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.Model\obj\Debug\net6.0\VetApp.Model.pdb

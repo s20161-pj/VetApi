@@ -1,0 +1,12 @@
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.AssemblyInfoInputs.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.AssemblyInfo.cs
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.CoreCompileInputs.cache
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.deps.json
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\ref\VetApp.DataAccess.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.pdb
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\ref\VetApp.DataAccess.dll
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.pdb
+E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.AssemblyReference.cache

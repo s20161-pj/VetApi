@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using VetApp.Api.Dtos.Vet;
-using VetApp.Api.Models;
-using VetApp.Api.Services.VetService;
+using VetApp.Model;
+using VetApp.Model.Vet;
+using VetApp.Services.Interfaces;
 
 namespace VetApp.Api.Controllers;
 

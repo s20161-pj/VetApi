@@ -1,9 +1,10 @@
 
 using Microsoft.EntityFrameworkCore;
 using VetApp.Api.Context;
-using VetApp.Api.Repository;
-using VetApp.Api.Services.ClinicService;
-using VetApp.Api.Services.VetService;
+using VetApp.Repository.Interfaces;
+using VetApp.Repository.Repository;
+using VetApp.Services.Interfaces;
+using VetApp.Services.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

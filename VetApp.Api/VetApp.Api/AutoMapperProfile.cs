@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
-using VetApp.Api.Dtos.Clinic;
 using VetApp.Api.Dtos.Vet;
-using VetApp.Api.Models;
+using VetApp.DataAccess.Models;
+using VetApp.Model.Clinic;
+using VetApp.Model.Specialization;
+using VetApp.Model.Vet;
 
 namespace VetApp.Api
 {
@@ -13,6 +15,7 @@ namespace VetApp.Api
             CreateMap<AddVetDto, Vet>();
             CreateMap<Clinic, GetClinicDto>();
             CreateMap<AddClinicDto, Clinic>();
+            CreateMap<AddSpecializationDto, Specialization>();
         }
     }
 }

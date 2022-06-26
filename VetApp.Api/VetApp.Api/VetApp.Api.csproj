@@ -9,17 +9,22 @@
 
     <ItemGroup>
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-        <PackageReference Include="EntityFramework" Version="6.4.4" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.6" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.6" />
         <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.3.1" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.3.1" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.3.1" />
         <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\VetApp.DataAccess\VetApp.DataAccess.csproj" />
+      <ProjectReference Include="..\VetApp.Repository\VetApp.Repository.csproj" />
+      <ProjectReference Include="..\VetApp.Services\VetApp.Services.csproj" />
     </ItemGroup>
 
 </Project>
