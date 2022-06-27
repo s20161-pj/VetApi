@@ -44,7 +44,7 @@ public class VetService : IVetService
         if (clinic == null)
         {
             serviceResponse.Success = false;
-            serviceResponse.Message = "Podana klinika nie istnieje";
+            serviceResponse.Message = "Podana klinika nie istnieje, nie mo¿na dodaæ weterynarza do listy";
 
             return serviceResponse;
         }

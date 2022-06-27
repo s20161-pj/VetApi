@@ -24,6 +24,6 @@ namespace VetApp.Api.Context
         {
             optionsBuilder.UseSqlite("DataSource=dbo.VetApp.db");
         }
-      
+       
     }
 }

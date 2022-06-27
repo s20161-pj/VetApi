@@ -25,7 +25,9 @@ builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IPetRepository, PetRepository>();
 builder.Services.AddScoped<IPetService, PetService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddDbContext<MainContext>(options => options.UseSqlite("DataSource=dbo.VetApp.db"));
+builder.Services.AddDbContext<MainContext>(options => 
+    options.UseSqlite("DataSource=dbo.VetApp.db",
+        sqlOptions => sqlOptions.MigrationsAssembly("VetApp.DataAccess")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
