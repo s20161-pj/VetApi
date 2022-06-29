@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetApp.Api", "VetApp.Api\VetApp.Api.csproj", "{F445ED5D-D8D5-4926-916B-CEC6C55A412B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetApp.Repository", "VetApp.Repository\VetApp.Repository.csproj", "{62AF93E7-BF5F-40D6-B7DA-135607058B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetApp.Repository", "VetApp.Repository\VetApp.Repository.csproj", "{62AF93E7-BF5F-40D6-B7DA-135607058B13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetApp.Model", "VetApp.Model\VetApp.Model.csproj", "{937086DF-FCD1-4F5F-981F-140943AB50D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetApp.Model", "VetApp.Model\VetApp.Model.csproj", "{937086DF-FCD1-4F5F-981F-140943AB50D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetApp.DataAccess", "VetApp.DataAccess\VetApp.DataAccess.csproj", "{C93B9B5D-6E7D-479C-9B69-792616FE5697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetApp.DataAccess", "VetApp.DataAccess\VetApp.DataAccess.csproj", "{C93B9B5D-6E7D-479C-9B69-792616FE5697}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetApp.Services", "VetApp.Services\VetApp.Services.csproj", "{CAFBD3AE-1DA8-4C9E-B938-87B20C3285E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetApp.Services", "VetApp.Services\VetApp.Services.csproj", "{CAFBD3AE-1DA8-4C9E-B938-87B20C3285E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetApp.Tests", "VetApp.Tests\VetApp.Tests.csproj", "{580EB34A-6534-477F-AA8E-281A8285E689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{CAFBD3AE-1DA8-4C9E-B938-87B20C3285E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAFBD3AE-1DA8-4C9E-B938-87B20C3285E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAFBD3AE-1DA8-4C9E-B938-87B20C3285E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580EB34A-6534-477F-AA8E-281A8285E689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580EB34A-6534-477F-AA8E-281A8285E689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580EB34A-6534-477F-AA8E-281A8285E689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580EB34A-6534-477F-AA8E-281A8285E689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

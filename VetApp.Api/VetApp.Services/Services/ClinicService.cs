@@ -64,6 +64,13 @@ namespace VetApp.Services.Services
         {
             var serviceResponse = new ServiceResponse<GetClinicDto>();
             var dbClinic = await _clinicRepository.GetClinicByIdAsync(id);
+            if(dbClinic == null)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = "Brak podanej kliniki";
+                return serviceResponse;
+            }
+
             serviceResponse.Data = dbClinic;
             return serviceResponse;
         }
