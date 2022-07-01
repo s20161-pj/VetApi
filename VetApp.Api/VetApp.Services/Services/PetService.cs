@@ -4,6 +4,7 @@ using VetApp.Model;
 using VetApp.Model.Clinic;
 using VetApp.Model.Pet;
 using VetApp.Repository.Interfaces;
+using VetApp.Repository.Repository;
 using VetApp.Services.Interfaces;
 
 namespace VetApp.Services.Services
@@ -14,14 +15,23 @@ namespace VetApp.Services.Services
 
         private readonly IPetRepository _petRepository;
         private readonly IMapper _mapper;
-        public PetService(IMapper mapper, IPetRepository petRepository)
+        private readonly IClientRepository _clientRepository;
+        public PetService(IMapper mapper, IPetRepository petRepository, IClientRepository clientRepository)
         {
             _mapper = mapper;
             _petRepository = petRepository;
+            _clientRepository = clientRepository;
         }
         public async Task<ServiceResponse<bool>> AddPet(AddPetDto newPet)
         {
             var serviceResponse = new ServiceResponse<bool>();
+            var client = await _clientRepository.GetClientByIdAsync(newPet.ClientId);
+            if (client == null)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message="Nie ma takiego klienta, nie można dodać zwierzaka do listy";
+                return serviceResponse;
+            }
             try
             {
                 await _petRepository.AddPetAsync(newPet);

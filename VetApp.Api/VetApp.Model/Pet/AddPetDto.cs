@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VetApp.Model.Pet
+﻿namespace VetApp.Model.Pet
 {
     public class AddPetDto
     {
@@ -14,5 +8,6 @@ namespace VetApp.Model.Pet
         public string NameOfThePetOwner { get; set; }
         public string SurnameOfThePetOwner { get; set; }
         public string PetAddress { get; set; }
+        public int ClientId { get; set; }
     }
 }
