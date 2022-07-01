@@ -6,4 +6,5 @@ public class AddVetDto
     public string Surname { get; set; }
     public string OccupationNumber { get; set; }
     public int ClinicId { get; set; }
+    public List<int> SpecializationIds { get; set; }
 }

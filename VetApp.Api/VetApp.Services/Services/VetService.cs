@@ -49,17 +49,9 @@ public class VetService : IVetService
             return serviceResponse;
         }
 
-        try
-        {
-            await _vetRepository.AddVetAsync(newVet);
-            serviceResponse.Data = true;
-        }
-        catch (Exception ex)
-        {
-            serviceResponse.Success = false;
-            serviceResponse.Message = ex.Message;
-        }
-
+        await _vetRepository.AddVetAsync(newVet);
+        serviceResponse.Data = true;
+        
         return serviceResponse;
     }
 

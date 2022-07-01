@@ -7267,23 +7267,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Asia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Tests\\VetApp.Tests.csproj",
+      "projectUniqueName": "F:\\AsiaWork\\VetApi\\VetApp.Api\\VetApp.Tests\\VetApp.Tests.csproj",
       "projectName": "VetApp.Tests",
-      "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Tests\\VetApp.Tests.csproj",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Tests\\obj\\",
+      "projectPath": "F:\\AsiaWork\\VetApi\\VetApp.Api\\VetApp.Tests\\VetApp.Tests.csproj",
+      "packagesPath": "C:\\Users\\Asia\\.nuget\\packages\\",
+      "outputPath": "F:\\AsiaWork\\VetApi\\VetApp.Api\\VetApp.Tests\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7297,8 +7293,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj": {
-              "projectPath": "E:\\kurs_NET\\uczelnia_NET\\projekt\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj"
+            "F:\\AsiaWork\\VetApi\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj": {
+              "projectPath": "F:\\AsiaWork\\VetApi\\VetApp.Api\\VetApp.Services\\VetApp.Services.csproj"
             }
           }
         }
@@ -7357,7 +7353,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

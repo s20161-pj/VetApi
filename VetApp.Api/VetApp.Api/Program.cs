@@ -1,12 +1,19 @@
 
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using VetApp.Api.Context;
 using VetApp.Repository.Interfaces;
 using VetApp.Repository.Repository;
 using VetApp.Services.Interfaces;
 using VetApp.Services.Services;
+using WebApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 // Add services to the container.
 
@@ -27,6 +34,7 @@ builder.Services.AddScoped<IPetService, PetService>();
 builder.Services.AddScoped<ISpecializationRepository, SpecializationRepository>();
 builder.Services.AddScoped<ISpecializationService, SpecializationService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddLogging();
 builder.Services.AddDbContext<MainContext>(options => 
     options.UseSqlite("DataSource=dbo.VetApp.db",
         sqlOptions => sqlOptions.MigrationsAssembly("VetApp.DataAccess")));
@@ -42,7 +50,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseMiddleware<ErrorHandlerMiddleware>();
 app.MapControllers();
 
 app.Run();

@@ -12,3 +12,17 @@ E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\V
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.AssemblyReference.cache
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.runtimeconfig.json
 E:\kurs_NET\uczelnia_NET\projekt\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.genruntimeconfig.cache
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.deps.json
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.runtimeconfig.json
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.dll
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\bin\Debug\net6.0\VetApp.DataAccess.pdb
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.AssemblyReference.cache
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.AssemblyInfoInputs.cache
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.AssemblyInfo.cs
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.csproj.CoreCompileInputs.cache
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.dll
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\refint\VetApp.DataAccess.dll
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.pdb
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\VetApp.DataAccess.genruntimeconfig.cache
+F:\AsiaWork\VetApi\VetApp.Api\VetApp.DataAccess\obj\Debug\net6.0\ref\VetApp.DataAccess.dll

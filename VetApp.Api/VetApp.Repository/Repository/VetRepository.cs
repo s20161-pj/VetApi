@@ -33,6 +33,13 @@ namespace VetApp.Repository.Repository
         public async Task AddVetAsync(AddVetDto newVet)
         {
             Vet vet = _mapper.Map<Vet>(newVet);
+            vet.Specialization = new List<Specialization>();
+
+            foreach (var specializationId in newVet.SpecializationIds) {
+                var specialization = _mainContext.Specializations.First(x => x.Id == specializationId);
+                vet.Specialization.Add(specialization);
+            }
+
             _mainContext.Vets.Add(vet);
             await _mainContext.SaveChangesAsync();
         }
